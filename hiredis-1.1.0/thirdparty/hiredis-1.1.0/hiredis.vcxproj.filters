@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e35b69c1-f2dc-429b-ba0d-01bacf98804d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{714d9767-9398-4a9c-98cb-baa4af93cfaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async_private.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dict.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hiredis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hiredis_ssl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\read.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sds.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sdsalloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sockcompat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\alloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\async.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hiredis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\read.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sds.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sockcompat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ssl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

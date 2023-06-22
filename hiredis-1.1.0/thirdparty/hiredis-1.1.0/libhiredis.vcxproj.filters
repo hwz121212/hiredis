@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\alloc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\async.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dict.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hiredis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\read.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sds.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sockcompat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ssl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{060FD6B2-79AA-3FB7-A6A1-C56BF21BD23B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5fdd5c9b-b32e-4bed-8d29-b9cc6e4c0057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async_private.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dict.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fmacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hiredis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hiredis_ssl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\net.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\read.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sds.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sdsalloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sockcompat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\win32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
